@@ -1,0 +1,30 @@
+{
+  "name": "sms-reminder-generator",
+  "version": "1.0.0",
+  "description": "Generate personalized SMS reminder messages using OpenAI",
+  "main": "generate-reminder-message.js",
+  "scripts": {
+    "start": "node generate-reminder-message.js",
+    "test": "node generate-reminder-message.js",
+    "dev": "nodemon generate-reminder-message.js"
+  },
+  "keywords": [
+    "openai",
+    "sms",
+    "reminder",
+    "ecommerce",
+    "abandoned-cart",
+    "ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
